@@ -1,5 +1,7 @@
 # drone-render
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/lizheming/drone-render.svg)](https://greenkeeper.io/)
+
 [![npm](https://img.shields.io/npm/v/drone-render.svg?style=flat-square)]()
 [![Travis](https://img.shields.io/travis/lizheming/drone-render.svg?style=flat-square)]()
 [![Coveralls](https://img.shields.io/coveralls/lizheming/drone-render/master.svg?style=flat-square)]()
