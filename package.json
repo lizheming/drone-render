@@ -1,0 +1,35 @@
+{
+  "name": "drone-render",
+  "version": "1.0.0",
+  "description": "Render template with CI enviroment injected by Drone CI.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npm run eslint && npm run test-cov",
+    "test-cov": "nyc ava test/ && nyc report --reporter=html",
+    "eslint": "eslint ./src",
+    "prepublish": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lizheming/drone-render"
+  },
+  "keywords": [
+    "drone",
+    "environment",
+    "template",
+    "nunjucks"
+  ],
+  "author": "lizheming <i@imnerd.org>",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.20.1",
+    "nunjucks": "^3.0.1",
+    "nunjucks-date-filter": "^0.1.1"
+  },
+  "devDependencies": {
+    "ava": "^0.24.0",
+    "eslint": "^4.14.0",
+    "eslint-config-think": "^1.0.2",
+    "nyc": "^11.4.1"
+  }
+}
