@@ -37,14 +37,17 @@ render(`
 - `build.event`: build event type enumeration, one of push, pull_request, tag, deployment
 - `build.number`: build number
 - `build.commit`: git sha for current commit
+- `build.message`: commit message for the current build
 - `build.branch`: git branch for current commit
 - `build.tag`: git tag for current commit
 - `build.ref`: git ref for current commit
+- `build.pull_request`: pull request number for the current build
+- `build.source_branch`: source branch for a pull request
+- `build.target_branch`: target branch for a pull request
 - `build.author`: git author for current commit
 - `build.link`: link the the build results in drone
 - `build.started`: unix timestamp for build started
 - `build.finished`: unix timestamp for build finished
-
 
 ### Template Filter
 
