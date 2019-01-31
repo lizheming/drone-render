@@ -1,6 +1,6 @@
 {
   "name": "drone-render",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Render template with CI enviroment injected by Drone CI.",
   "main": "src/index.js",
   "scripts": {
