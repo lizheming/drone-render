@@ -43,7 +43,7 @@ module.exports = class {
         data = data[item];
       }
 
-      data[lastEnvItems] = process.env[ ENVS[env] ];
+      data[lastEnvItems] = process.env[ENVS[env]];
     }
 
     ENV_DATAS.success = ENV_DATAS.build.status === 'success';

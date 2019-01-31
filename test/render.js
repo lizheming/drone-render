@@ -1,4 +1,4 @@
-const {test} = require('ava');
+const { test } = require('ava');
 const Render = require('../src/render');
 
 const ENVS = {
@@ -114,6 +114,10 @@ test('render data normal', t => {
       'name': 'ipquery'
     },
     'build': {
+      'pull_request': undefined,
+      'source_branch': undefined,
+      'target_branch': undefined,
+      'message': 'change token config\n',
       'tag': undefined,
       'status': 'success',
       'event': 'push',
