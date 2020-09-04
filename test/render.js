@@ -126,6 +126,7 @@ test('render data normal', t => {
       'branch': 'master',
       'ref': 'refs/heads/master',
       'author': 'lizheming',
+      'author_name': undefined,
       'link': 'https://ci.eming.li/lizheming/ipquery/20',
       'started': 1514903861000,
       'finished': 1514903955000
