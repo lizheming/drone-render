@@ -25,6 +25,7 @@ module.exports = class {
       'build.source_branch': 'DRONE_SOURCE_BRANCH',
       'build.target_branch': 'DRONE_TARGET_BRANCH',
       'build.author': 'DRONE_COMMIT_AUTHOR',
+      'build.author_name': 'DRONE_COMMIT_AUTHOR_NAME',
       'build.link': 'DRONE_BUILD_LINK',
       'build.started': 'DRONE_BUILD_STARTED',
       'build.finished': 'DRONE_BUILD_FINISHED'
